@@ -32,3 +32,77 @@ h2 {
     border-radius: 3px;
     font-family: lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-
 }
+
+
+
+.vd-input {
+    box-sizing: border-box;
+    font-family: lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    width: 100%;
+    padding: 12px;
+    box-shadow: none;
+    border: 1px solid #D7D7D7;
+    border-radius: 3px;
+    outline: none;
+    background-color: #FFFFFF;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    -webkit-transition-property: border-color, box-shadow;
+    transition-property: border-color, box-shadow;
+}
+
+
+// Buttons
+
+.vd-button-small {
+
+  font-size: 15px;
+  -webkit-font-smoothing: auto;
+  font-weight: 300;
+  background-color: #44B773;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  color: #FFFFFF;
+  min-width: 150px;
+  padding: 12px 20px;
+  text-align: center;
+  cursor: pointer;
+  margin: 4px;
+  -webkit-font-smoothing: auto;
+}
+
+.vd-color-primary {
+  background-color: #44B773;
+}
+
+.vd-color-secondary {
+  background-color: #446A81;
+}
+
+
+
+.vend-iframe {
+  width: 600px;
+  height: 400px;
+  background-color: #F5F5F5;
+  border-radius: 5px;
+  margin: 5% auto;
+}
+
+
+.vd-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vd-modal-bottom {
+  display: flex;
+  justify-content: flex-end;
+}
+.vd-button-sized {
+	border: 3px;
+	width: 400px;
+	height: 600px;
+}
