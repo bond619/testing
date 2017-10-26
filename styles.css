@@ -2,6 +2,11 @@
 html, body {
   height: 100%;
 }
+
+ul{
+  
+}
+
 h2 {
   font-weight: bold;
   margin-bottom: 32px;
@@ -19,9 +24,10 @@ h2 {
 }
 .vd-select-container {
     position: relative;
-    width: 100%;
+    width: 20%;
     display: block;
     border-radius: 3px;
+ 
 }
 
 .vd-select {
@@ -31,8 +37,6 @@ h2 {
     border-radius: 3px;
     font-family: lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-
 }
-
-
 
 .vd-input {
     box-sizing: border-box;
@@ -55,11 +59,22 @@ h2 {
     // display: inline-block;
     margin-bottom: 5px;
     font-weight: 700;
+  
     font-family: lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
 // Buttons
-
+button {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  padding: 15px 45px;
+  font-size: 48px;
+  font-family: "Bitter",serif;
+  line-height: 1.8;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 0;
+}
 .vd-button-small {
 
   font-size: 15px;
@@ -79,10 +94,14 @@ h2 {
 
 .vd-color-primary {
   background-color: #44B773;
+  width: 100px;
+  
 }
 
 .vd-color-secondary {
   background-color: #446A81;
+   width: 100px;
+  transparent: light;
 }
 
 
@@ -90,12 +109,10 @@ h2 {
 .vend-iframe {
   width: 600px;
   height: 400px;
-  background-color: #F5F5F5;
+  background-color: grey;
   border-radius: 5px;
   margin: 5% auto;
 }
-
-
 .vd-header {
   display: flex;
   justify-content: space-between;
@@ -109,4 +126,26 @@ h2 {
 	border: 3px;
 	width: 400px;
 	height: 600px;
+}
+
+
+
+.month-box {
+  height:20px;
+  width:50px;
+  background: green;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  margin: 10px;
+  }
+.month-flex {
+  display: flex;
+  height: 200px;
+  width: 500px; 
+  flex-flow: row wrap; 
+  border: solid 1px #000; 
+  justify-content: center; 
+  align-content: center; 
+  margin: 0px; 
 }
